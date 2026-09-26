@@ -1,0 +1,192 @@
+[
+  {
+    "scenario": "matched",
+    "mode": "full",
+    "replicates": 300,
+    "gene_decisions": 1200,
+    "brier": 0.0753900704806387,
+    "brier_mcse_by_replicate": 0.005487350106415158,
+    "log_loss": 0.24372167290531213,
+    "accuracy_at_0_5": 0.8916666666666667,
+    "observed_core_prevalence": 0.23333333333333334,
+    "majority_noncore_accuracy": 0.7666666666666666,
+    "joint_90_coverage": 0.9433333333333334,
+    "joint_90_coverage_wilson_95": [
+      0.9111340419775253,
+      0.9643225235367106
+    ],
+    "mean_joint_credible_mass": 0.9421957869642464,
+    "mean_joint_set_size": 2.8
+  },
+  {
+    "scenario": "matched",
+    "mode": "fixed_mapping",
+    "replicates": 300,
+    "gene_decisions": 1200,
+    "brier": 0.0760321050697656,
+    "brier_mcse_by_replicate": 0.005597599177288837,
+    "log_loss": 0.24682177928220858,
+    "accuracy_at_0_5": 0.8916666666666667,
+    "observed_core_prevalence": 0.23333333333333334,
+    "majority_noncore_accuracy": 0.7666666666666666,
+    "joint_90_coverage": 0.94,
+    "joint_90_coverage_wilson_95": [
+      0.9071605548470915,
+      0.9617136304753079
+    ],
+    "mean_joint_credible_mass": 0.9439784293629376,
+    "mean_joint_set_size": 2.6666666666666665
+  },
+  {
+    "scenario": "matched",
+    "mode": "fixed_network",
+    "replicates": 300,
+    "gene_decisions": 1200,
+    "brier": 0.07685743480561376,
+    "brier_mcse_by_replicate": 0.005720898733030786,
+    "log_loss": 0.24880859261396873,
+    "accuracy_at_0_5": 0.8891666666666667,
+    "observed_core_prevalence": 0.23333333333333334,
+    "majority_noncore_accuracy": 0.7666666666666666,
+    "joint_90_coverage": 0.94,
+    "joint_90_coverage_wilson_95": [
+      0.9071605548470915,
+      0.9617136304753079
+    ],
+    "mean_joint_credible_mass": 0.9474636512188194,
+    "mean_joint_set_size": 2.56
+  },
+  {
+    "scenario": "matched",
+    "mode": "fixed_both",
+    "replicates": 300,
+    "gene_decisions": 1200,
+    "brier": 0.07752208659583044,
+    "brier_mcse_by_replicate": 0.005853480217006847,
+    "log_loss": 0.2530627923529218,
+    "accuracy_at_0_5": 0.89,
+    "observed_core_prevalence": 0.23333333333333334,
+    "majority_noncore_accuracy": 0.7666666666666666,
+    "joint_90_coverage": 0.9233333333333333,
+    "joint_90_coverage_wilson_95": [
+      0.8875898961498251,
+      0.9483723882133924
+    ],
+    "mean_joint_credible_mass": 0.9515489409612314,
+    "mean_joint_set_size": 2.4766666666666666
+  },
+  {
+    "scenario": "matched",
+    "mode": "no_network",
+    "replicates": 300,
+    "gene_decisions": 1200,
+    "brier": 0.11547518222851084,
+    "brier_mcse_by_replicate": 0.008772198786214868,
+    "log_loss": 0.4347763179614741,
+    "accuracy_at_0_5": 0.855,
+    "observed_core_prevalence": 0.23333333333333334,
+    "majority_noncore_accuracy": 0.7666666666666666,
+    "joint_90_coverage": 0.7833333333333333,
+    "joint_90_coverage_wilson_95": [
+      0.7332901513759227,
+      0.8262121649301679
+    ],
+    "mean_joint_credible_mass": 0.9544446365492589,
+    "mean_joint_set_size": 2.1
+  },
+  {
+    "scenario": "noise_misspecification",
+    "mode": "full",
+    "replicates": 150,
+    "gene_decisions": 600,
+    "brier": 0.15384522883428928,
+    "brier_mcse_by_replicate": 0.013374810864530911,
+    "log_loss": 0.5430296457143067,
+    "accuracy_at_0_5": 0.8033333333333333,
+    "observed_core_prevalence": 0.25333333333333335,
+    "majority_noncore_accuracy": 0.7466666666666666,
+    "joint_90_coverage": 0.7066666666666667,
+    "joint_90_coverage_wilson_95": [
+      0.6293765082407161,
+      0.7736357907538123
+    ],
+    "mean_joint_credible_mass": 0.9458086166566223,
+    "mean_joint_set_size": 2.533333333333333
+  },
+  {
+    "scenario": "noise_misspecification",
+    "mode": "fixed_mapping",
+    "replicates": 150,
+    "gene_decisions": 600,
+    "brier": 0.15327811882245104,
+    "brier_mcse_by_replicate": 0.013606602853296863,
+    "log_loss": 0.5597211273835787,
+    "accuracy_at_0_5": 0.81,
+    "observed_core_prevalence": 0.25333333333333335,
+    "majority_noncore_accuracy": 0.7466666666666666,
+    "joint_90_coverage": 0.7,
+    "joint_90_coverage_wilson_95": [
+      0.6224201960400859,
+      0.7675917062126834
+    ],
+    "mean_joint_credible_mass": 0.9490671977825926,
+    "mean_joint_set_size": 2.36
+  },
+  {
+    "scenario": "noise_misspecification",
+    "mode": "fixed_network",
+    "replicates": 150,
+    "gene_decisions": 600,
+    "brier": 0.15715039687709312,
+    "brier_mcse_by_replicate": 0.013366168957296486,
+    "log_loss": 0.5967068793378106,
+    "accuracy_at_0_5": 0.8083333333333333,
+    "observed_core_prevalence": 0.25333333333333335,
+    "majority_noncore_accuracy": 0.7466666666666666,
+    "joint_90_coverage": 0.6666666666666666,
+    "joint_90_coverage_wilson_95": [
+      0.5878975668678504,
+      0.7371123516761239
+    ],
+    "mean_joint_credible_mass": 0.9560583523281937,
+    "mean_joint_set_size": 2.32
+  },
+  {
+    "scenario": "noise_misspecification",
+    "mode": "fixed_both",
+    "replicates": 150,
+    "gene_decisions": 600,
+    "brier": 0.1553439853844693,
+    "brier_mcse_by_replicate": 0.013553218018615582,
+    "log_loss": 0.6165620403967842,
+    "accuracy_at_0_5": 0.8083333333333333,
+    "observed_core_prevalence": 0.25333333333333335,
+    "majority_noncore_accuracy": 0.7466666666666666,
+    "joint_90_coverage": 0.6533333333333333,
+    "joint_90_coverage_wilson_95": [
+      0.5742042146686651,
+      0.7248049103917914
+    ],
+    "mean_joint_credible_mass": 0.9578291994099508,
+    "mean_joint_set_size": 2.1866666666666665
+  },
+  {
+    "scenario": "noise_misspecification",
+    "mode": "no_network",
+    "replicates": 150,
+    "gene_decisions": 600,
+    "brier": 0.1778068316733437,
+    "brier_mcse_by_replicate": 0.014244752842191392,
+    "log_loss": 0.7576001400160657,
+    "accuracy_at_0_5": 0.785,
+    "observed_core_prevalence": 0.25333333333333335,
+    "majority_noncore_accuracy": 0.7466666666666666,
+    "joint_90_coverage": 0.6,
+    "joint_90_coverage_wilson_95": [
+      0.52004915848891,
+      0.6749567926374747
+    ],
+    "mean_joint_credible_mass": 0.95846662132881,
+    "mean_joint_set_size": 2.1066666666666665
+  }
+]

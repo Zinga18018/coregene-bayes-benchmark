@@ -1,0 +1,52 @@
+[
+  {
+    "replicate": 0,
+    "max_absolute_marginal_difference": 1.0602045291685513e-07,
+    "joint_total_variation_distance": 1.1935621946237565e-07
+  },
+  {
+    "replicate": 1,
+    "max_absolute_marginal_difference": 4.284847905655642e-08,
+    "joint_total_variation_distance": 4.370231781585884e-08
+  },
+  {
+    "replicate": 2,
+    "max_absolute_marginal_difference": 6.372866802051291e-07,
+    "joint_total_variation_distance": 1.0029809878108004e-06
+  },
+  {
+    "replicate": 3,
+    "max_absolute_marginal_difference": 6.498276344801823e-08,
+    "joint_total_variation_distance": 6.92123789946828e-08
+  },
+  {
+    "replicate": 4,
+    "max_absolute_marginal_difference": 5.171482634486191e-09,
+    "joint_total_variation_distance": 7.044266047678618e-09
+  },
+  {
+    "replicate": 5,
+    "max_absolute_marginal_difference": 9.67475424218378e-08,
+    "joint_total_variation_distance": 1.2849018644232383e-07
+  },
+  {
+    "replicate": 6,
+    "max_absolute_marginal_difference": 2.7375590336276012e-09,
+    "joint_total_variation_distance": 4.220046117633734e-09
+  },
+  {
+    "replicate": 7,
+    "max_absolute_marginal_difference": 5.4514533442961977e-08,
+    "joint_total_variation_distance": 6.928459864383823e-08
+  },
+  {
+    "replicate": 8,
+    "max_absolute_marginal_difference": 8.741821966307128e-08,
+    "joint_total_variation_distance": 8.897250991854884e-08
+  },
+  {
+    "replicate": 9,
+    "max_absolute_marginal_difference": 7.70648184433842e-08,
+    "joint_total_variation_distance": 1.2928104969172133e-07
+  }
+]

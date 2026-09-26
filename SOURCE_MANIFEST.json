@@ -1,0 +1,39 @@
+{
+  "project_created": "2026-09-25",
+  "project_status": "new educational synthetic prototype",
+  "data_provenance": {
+    "external_datasets_used": [],
+    "synthetic_generator": "coregene_bayes/model.py:simulate",
+    "biological_identifiers": false,
+    "patient_data": false,
+    "ground_truth": "Sampled Bernoulli labels from the stated generative model; not biological annotations",
+    "label_status": "synthetic_known_truth",
+    "human_reviewed_biological_labels": 0
+  },
+  "sources": [
+    {
+      "title": "2027 FBM PhD fellowship applications",
+      "publisher": "University of Lausanne Statistical Genetics Group",
+      "url": "https://wp.unil.ch/sgg/2027-fbm-phd-fellowship-applications/",
+      "accessed": "2026-09-25",
+      "role": "Motivation and research-direction alignment only; no institutional endorsement or method-validation claim"
+    },
+    {
+      "title": "numpy.polynomial.legendre.leggauss",
+      "publisher": "NumPy",
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.polynomial.legendre.leggauss.html",
+      "accessed": "2026-09-25",
+      "role": "Primary documentation for the numerical quadrature implementation"
+    }
+  ],
+  "execution_evidence": [
+    "results/run_metadata.json",
+    "results/datasets.json",
+    "results/predictions.csv",
+    "results/summary.json",
+    "results/calibration.csv",
+    "results/convergence.json",
+    "results/test-log.txt",
+    "results/benchmark-log.txt"
+  ]
+}

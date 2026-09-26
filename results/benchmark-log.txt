@@ -1,0 +1,14 @@
+matched: 50/300 completed
+matched: 100/300 completed
+matched: 150/300 completed
+matched: 200/300 completed
+matched: 250/300 completed
+matched: 300/300 completed
+noise_misspecification: 50/150 completed
+noise_misspecification: 100/150 completed
+noise_misspecification: 150/150 completed
+{
+  "output": "results",
+  "prediction_rows": 9000,
+  "duration_seconds": 8.647
+}

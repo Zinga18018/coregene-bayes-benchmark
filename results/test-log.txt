@@ -1,0 +1,16 @@
+test_beta_quadrature_matches_analytic_moments (test_model.BayesianModelTests.test_beta_quadrature_matches_analytic_moments) ... ok
+test_direct_only_has_analytic_independent_bernoulli_posterior (test_model.BayesianModelTests.test_direct_only_has_analytic_independent_bernoulli_posterior) ... ok
+test_fixed_weights_agree_with_independent_enumeration (test_model.BayesianModelTests.test_fixed_weights_agree_with_independent_enumeration) ... ok
+test_integer_truth_preserves_fractional_network_activity (test_model.BayesianModelTests.test_integer_truth_preserves_fractional_network_activity) ... ok
+test_joint_credible_set_attains_requested_mass (test_model.BayesianModelTests.test_joint_credible_set_attains_requested_mass) ... ok
+test_more_quadrature_nodes_agree_for_nontrivial_example (test_model.BayesianModelTests.test_more_quadrature_nodes_agree_for_nontrivial_example) ... ok
+test_no_evidence_recovers_prior_in_every_mode (test_model.BayesianModelTests.test_no_evidence_recovers_prior_in_every_mode) ... ok
+test_rejects_invalid_shapes_and_infinity (test_model.BayesianModelTests.test_rejects_invalid_shapes_and_infinity) ... ok
+test_seed_reproduces_synthetic_data (test_model.BayesianModelTests.test_seed_reproduces_synthetic_data) ... ok
+test_uncertainty_changes_posterior (test_model.BayesianModelTests.test_uncertainty_changes_posterior) ... ok
+test_zero_signal_is_uninformative (test_model.BayesianModelTests.test_zero_signal_is_uninformative) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.389s
+
+OK

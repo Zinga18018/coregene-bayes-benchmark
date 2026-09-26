@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coregene-bayes-benchmark"
+version = "0.1.0"
+description = "A synthetic benchmark for uncertainty propagation in a small Bayesian gene cascade"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.0,<3"]
+authors = [{ name = "Yogesh Kuchimanchi" }]
+keywords = ["bayesian inference", "uncertainty quantification", "statistical genetics", "gene prioritisation", "synthetic data"]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.9,<4"]
+
+[project.scripts]
+coregene-benchmark = "coregene_bayes.cli:main"
+
+[project.urls]
+Repository = "https://github.com/Zinga18018/coregene-bayes-benchmark"
+Issues = "https://github.com/Zinga18018/coregene-bayes-benchmark/issues"
+
+[tool.setuptools.packages.find]
+include = ["coregene_bayes*"]

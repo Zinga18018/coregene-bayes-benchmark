@@ -1,0 +1,13 @@
+{
+  "matplotlib": "3.10.7",
+  "numpy": "2.5.3",
+  "inputs": [
+    "calibration.csv",
+    "summary.json"
+  ],
+  "outputs": [
+    "calibration.svg",
+    "calibration.png"
+  ],
+  "note": "Plotting-only runtime; statistical execution versions are recorded in run_metadata.json"
+}
