@@ -81,6 +81,12 @@ It does **not** implement eQTL/pQTL colocalisation, Mendelian randomisation, rar
 
 The Allen Human Brain Atlas is not used here. Brain expression context and cardiometabolic target inference require different biological validation; substituting one for the other would not demonstrate alignment with the lab's disease focus.
 
+### Real-data companion
+
+The separate [Cardiometabolic GWAS Evidence Explorer](https://github.com/Zinga18018/cardiometabolic-gwas-evidence-explorer) applies an evidence-audit workflow to a pinned Open Targets snapshot for five FinnGen R12 type 2 diabetes loci. Its [real-data case study](https://github.com/Zinga18018/cardiometabolic-gwas-evidence-explorer/blob/main/reports/real_data_case_study.md) compares fine-mapping concentration, L2G rankings, and molecular-QTL colocalisation while preserving missingness and source quality-control flags.
+
+That companion project examines the public variant-to-gene evidence that a future model would need to represent. Its PIPs, L2G scores, H4 values, and CLPP values are not passed into this repository's toy likelihood: they have different meanings and are not observations from the stipulated synthetic data-generating process. The case study therefore reports evidence patterns rather than synthetic-model posteriors or causal-gene probabilities.
+
 ## Repository map
 
 | Path | Purpose |
