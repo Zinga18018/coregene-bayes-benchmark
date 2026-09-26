@@ -9,11 +9,17 @@
 
 This is an educational portfolio prototype. All identifiers, observations, network weights and ground-truth labels are synthetic. This repository is not a GWAS analysis, a validated gene-prioritisation method, or evidence of a therapeutic discovery.
 
+## In simple terms
+
+The model studies two uncertain steps: how variants are linked to genes, and how those genes are linked to possible core genes. Instead of replacing each uncertain link with one average number, it carries the range of plausible link weights through a small Bayesian model.
+
+The project uses synthetic data because the true core-gene labels and link weights are known there. That lets us check whether the model's uncertainty behaves as intended and see what happens when a noise assumption is deliberately wrong. It is a statistical-method exercise; it is not trained on the FinnGen records and does not identify real disease genes.
+
 ## The question
 
 When both variant-to-gene mapping and gene-to-core propagation are uncertain, what changes if we integrate those uncertainties instead of replacing them with their means?
 
-The implementation defines a generative model, enumerates its 16 possible core-membership states, and integrates continuous Beta-distributed weights using deterministic quadrature. It returns a posterior under that explicit toy model. It also deliberately increases the simulated noise without informing inference to demonstrate that correctly implemented Bayesian inference can still become overconfident under model misspecification.
+The implementation defines a generative model, enumerates its 16 possible core-membership states, and integrates continuous Beta-distributed weights using deterministic quadrature. It returns a posterior under that explicit toy model. It also deliberately increases the simulated noise without informing inference to illustrate, within this simulation, that inference under the specified toy model can still become overconfident when its likelihood is wrong.
 
 ```mermaid
 flowchart LR
@@ -34,7 +40,7 @@ The diagram shows evidence relationships, not established biological causal dire
 - Five inference variants: full uncertainty, fixed mapping, fixed network, both fixed, and a network-removal stress baseline.
 - Missing evidence is omitted from the likelihood. An absent measurement is never treated as a zero effect.
 - Prior-predictive evaluation with Brier score, log loss, descriptive reliability bins, and joint credible-set coverage.
-- Independent analytic-limit tests, a quadrature convergence check, source hashes, synthetic datasets and actual predictions.
+- Separate tests against analytic limits, a quadrature convergence check, source hashes, synthetic datasets and actual predictions.
 
 ## Quick start
 
@@ -85,7 +91,7 @@ The Allen Human Brain Atlas is not used here. Brain expression context and cardi
 
 The separate [Cardiometabolic GWAS Evidence Explorer](https://github.com/Zinga18018/cardiometabolic-gwas-evidence-explorer) applies an evidence-audit workflow to a pinned Open Targets snapshot for five FinnGen R12 type 2 diabetes loci. Its [real-data case study](https://github.com/Zinga18018/cardiometabolic-gwas-evidence-explorer/blob/main/reports/real_data_case_study.md) compares fine-mapping concentration, L2G rankings, and molecular-QTL colocalisation while preserving missingness and source quality-control flags.
 
-That companion project examines the public variant-to-gene evidence that a future model would need to represent. Its PIPs, L2G scores, H4 values, and CLPP values are not passed into this repository's toy likelihood: they have different meanings and are not observations from the stipulated synthetic data-generating process. The case study therefore reports evidence patterns rather than synthetic-model posteriors or causal-gene probabilities.
+That companion project examines public variant-to-gene evidence that a future model could represent after its dependencies and assumptions are specified. Its PIPs, L2G scores, H4 values, and CLPP values are not passed into this repository's toy likelihood: they have different meanings and are not observations from the stipulated synthetic data-generating process. The case study therefore reports evidence patterns rather than synthetic-model posteriors or causal-gene probabilities.
 
 ## Repository map
 
