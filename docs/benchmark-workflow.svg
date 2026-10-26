@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Evaluate uncertainty against known synthetic truth</title><desc id="desc">A bounded four-gene Bayesian experiment with five inference variants. Simulate a known world: Fixed configuration and seeded draws generate noisy observations All identifiers, link weights and labels are synthetic. Then Infer from observations only: Enumerate 16 joint states and integrate Beta-distributed weights Missing observations are omitted from the likelihood. Then Compare five model assumptions: Full uncertainty, fixed-weight ablations and a no-network baseline Use the same simulated datasets for each variant. Then Evaluate and stress the model: Score probabilities, joint coverage and quadrature convergence Increase simulated noise without changing the likelihood.. Synthetic calibration does not establish biological validity. The recorded small score difference is descriptive.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#7353a8" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="800" rx="24" fill="#f6f8fc"/>
+<text x="48" y="48" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#7353a8">YOGESH KUCHIMANCHI / PROJECT WALKTHROUGH</text>
+<text x="48" y="99" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#15243a">Evaluate uncertainty against known synthetic truth</text>
+<text x="48" y="132" font-family="Segoe UI,Arial,sans-serif" font-size="19" fill="#465972">A bounded four-gene Bayesian experiment with five inference variants</text>
+<rect x="48" y="166" width="733" height="110" rx="14" fill="#ffffff" stroke="#d5deeb" stroke-width="1.5"/><circle cx="88" cy="202" r="19" fill="#7353a8"/><text x="88" y="209" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#fff" font-weight="700">1</text><text x="124" y="203" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#15243a">Simulate a known world</text>
+<text x="124" y="232" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">Fixed configuration and seeded draws generate noisy observations</text>
+<text x="124" y="256" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">All identifiers, link weights and labels are synthetic.</text>
+<text x="826" y="192" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#7353a8" letter-spacing="1">TRUTH BOUNDARY</text>
+<text x="826" y="220" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">Truth is saved for</text>
+<text x="826" y="244" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">evaluation, not inference.</text>
+<path d="M414 276 V295" stroke="#7353a8" stroke-width="2" marker-end="url(#arrow)" fill="none"/>
+<rect x="48" y="303" width="733" height="110" rx="14" fill="#ffffff" stroke="#d5deeb" stroke-width="1.5"/><circle cx="88" cy="339" r="19" fill="#7353a8"/><text x="88" y="346" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#fff" font-weight="700">2</text><text x="124" y="340" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#15243a">Infer from observations only</text>
+<text x="124" y="369" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">Enumerate 16 joint states and integrate Beta-distributed weights</text>
+<text x="124" y="393" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">Missing observations are omitted from the likelihood.</text>
+<text x="826" y="329" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#7353a8" letter-spacing="1">NUMERICAL METHOD</text>
+<text x="826" y="357" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">Exact state enumeration;</text>
+<text x="826" y="381" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">approximate quadrature.</text>
+<path d="M414 413 V432" stroke="#7353a8" stroke-width="2" marker-end="url(#arrow)" fill="none"/>
+<rect x="48" y="440" width="733" height="110" rx="14" fill="#ffffff" stroke="#d5deeb" stroke-width="1.5"/><circle cx="88" cy="476" r="19" fill="#7353a8"/><text x="88" y="483" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#fff" font-weight="700">3</text><text x="124" y="477" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#15243a">Compare five model assumptions</text>
+<text x="124" y="506" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">Full uncertainty, fixed-weight ablations and a no-network baseline</text>
+<text x="124" y="530" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">Use the same simulated datasets for each variant.</text>
+<text x="826" y="466" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#7353a8" letter-spacing="1">CONTROLLED COMPARISON</text>
+<text x="826" y="494" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">No real disease genes.</text>
+<text x="826" y="518" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">No data fitting or tuning.</text>
+<path d="M414 550 V569" stroke="#7353a8" stroke-width="2" marker-end="url(#arrow)" fill="none"/>
+<rect x="48" y="577" width="733" height="110" rx="14" fill="#ffffff" stroke="#d5deeb" stroke-width="1.5"/><circle cx="88" cy="613" r="19" fill="#7353a8"/><text x="88" y="620" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" fill="#fff" font-weight="700">4</text><text x="124" y="614" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#15243a">Evaluate and stress the model</text>
+<text x="124" y="643" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">Score probabilities, joint coverage and quadrature convergence</text>
+<text x="124" y="667" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">Increase simulated noise without changing the likelihood.</text>
+<text x="826" y="603" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#7353a8" letter-spacing="1">FAILURE CASE</text>
+<text x="826" y="631" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">Wrong likelihoods can</text>
+<text x="826" y="655" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#465972">still be overconfident.</text>
+<rect x="48" y="722" width="1104" height="48" rx="10" fill="#e8edf6"/><text x="68" y="752" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#243a55">Synthetic calibration does not establish biological validity. The recorded small score difference is descriptive.</text></svg>

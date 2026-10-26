@@ -21,17 +21,11 @@ When both variant-to-gene mapping and gene-to-core propagation are uncertain, wh
 
 The implementation defines a generative model, enumerates its 16 possible core-membership states, and integrates continuous Beta-distributed weights using deterministic quadrature. It returns a posterior under that explicit toy model. It also deliberately increases the simulated noise without informing inference to illustrate, within this simulation, that inference under the specified toy model can still become overconfident when its likelihood is wrong.
 
-```mermaid
-flowchart LR
-    V[8 synthetic variant evidence values] --- Q[Uncertain mapping weights]
-    Q --- G[4 peripheral-gene activities]
-    G --- W[Uncertain network weights]
-    W --- C[4 latent core-membership indicators]
-    C --- D[4 direct evidence values]
-    C --> P[Posterior over 16 joint states]
-```
+![Synthetic benchmark: observed evidence enters inference; hidden truth is reserved for evaluation](docs/benchmark-workflow.svg)
 
-The diagram shows evidence relationships, not established biological causal directions. The exact likelihood factorisation is in [METHOD.md](METHOD.md).
+[Workflow and implementation decisions](WORKFLOW.md). The statistical relationships are defined in [METHOD.md](METHOD.md).
+
+The workflow describes a toy statistical experiment. It does not establish biological causal directions.
 
 ## What runs
 
