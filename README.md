@@ -2,7 +2,7 @@
 
 [![tests](https://github.com/Zinga18018/coregene-bayes-benchmark/actions/workflows/tests.yml/badge.svg)](https://github.com/Zinga18018/coregene-bayes-benchmark/actions/workflows/tests.yml)
 
-**A small, auditable experiment in propagating uncertainty through a synthetic variant–gene–core-gene cascade.**
+A synthetic Bayesian model comparing uncertainty integration with fixed-weight baselines across variant-to-gene and gene-to-core mappings.
 
 **Development snapshot:** September 2026<br>
 **Initial public release:** 25 September 2026
@@ -20,8 +20,6 @@ The project uses synthetic data because the true core-gene labels and link weigh
 When both variant-to-gene mapping and gene-to-core propagation are uncertain, what changes if we integrate those uncertainties instead of replacing them with their means?
 
 The implementation defines a generative model, enumerates its 16 possible core-membership states, and integrates continuous Beta-distributed weights using deterministic quadrature. It returns a posterior under that explicit toy model. It also deliberately increases the simulated noise without informing inference to illustrate, within this simulation, that inference under the specified toy model can still become overconfident when its likelihood is wrong.
-
-![Synthetic benchmark: observed evidence enters inference; hidden truth is reserved for evaluation](docs/benchmark-workflow.svg)
 
 [Workflow and implementation decisions](WORKFLOW.md). The statistical relationships are defined in [METHOD.md](METHOD.md).
 
